@@ -36,22 +36,21 @@ const AGENT_DEFS = [
   { id: "life",         label: "Life Insurance",    abbr: "LIFE",   color: "#4ade80", trigger: "Score > 0.65",    silent: false },
   { id: "credit",       label: "Credit Card",       abbr: "CC",     color: "#fbbf24", trigger: "Score > 0.65",    silent: false },
 ];
-
 const COLORS = {
-  bg:        "#040d18",
-  surface:   "#0b1d30",
-  card:      "#0f2440",
-  border:    "#163352",
-  borderBright: "#1e4a78",
-  green:     "#00e676",
-  greenDim:  "#00b248",
-  greenSurf: "#0a2218",
-  text:      "#dff0ff",
-  muted:     "#5f8ab0",
-  dimmed:    "#3a5a7a",
-  red:       "#ff4757",
-  orange:    "#ffa502",
-  gold:      "#ffd32a",
+  bg:        "#ffffff",       // Pure white background
+  surface:   "#f8fafc",       // Very light slate for card containers
+  card:      "#ffffff",       // Clean white for cards
+  border:    "#e2e8f0",       // Subtle border for clear separation
+  borderBright: "#94a3b8",    // Higher contrast for active elements
+  green:     "#059669",       // High-contrast emerald (accessible green)
+  greenDim:  "#047857",       // Darker shade for better contrast
+  greenSurf: "#ecfdf5",       // Light emerald tint for highlights
+  text:      "#0f172a",       // Near-black for maximum readability
+  muted:     "#64748b",       // Slate for secondary information
+  dimmed:    "#94a3b8",       // Softer gray for non-critical labels
+  red:       "#e11d48",       // High-contrast rose-red
+  orange:    "#d97706",       // High-contrast amber
+  gold:      "#b45309",       // Deep gold for visibility
 };
 
 // ═══════════════════════════════════════════════════════════════
